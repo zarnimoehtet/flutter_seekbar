@@ -2,21 +2,6 @@ library seekbar;
 
 import 'package:flutter/material.dart';
 
-/// SeekBar(
-///   value: 0.5,
-///   secondValue: 0.8,
-///   progressColor: Colors.blue,
-///   secondProgressColor: Colors.orange,
-///   onStartTrackingTouch: () {
-///     print('onStartTrackingTouch');
-///   },
-///   onProgressChanged: (value) {
-///     print('onProgressChanged:$value');
-///   },
-///   onStopTrackingTouch: () {
-///     print('onStopTrackingTouch');
-///   },
-/// )
 class SeekBar extends StatefulWidget {
   final double progressWidth;
   final double thumbRadius;
